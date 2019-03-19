@@ -15,8 +15,6 @@ namespace Snake
         private List<Circle> Snake = new List<Circle>();
         private FoodConsumable food = new FoodConsumable();
       
-        
-
         int moves_made = 0;
 
         //Wraith Form
@@ -29,6 +27,7 @@ namespace Snake
         Boolean muted = false;
         Boolean lvlupsound = false;
 
+        //Focus ability function
         public void focus_effect()
         {    
             int milliseconds = 2000;
@@ -50,6 +49,7 @@ namespace Snake
 
             //Start New game
             StartGame();
+
         }
 
         private void StartGame()
@@ -68,7 +68,7 @@ namespace Snake
             Circle head = new Circle { X = 10, Y = 5 };
             Snake.Add(head);
 
-            //cleanup ignore
+            //Debuff pictures and labels
             overfedPic.Hide();
             overfedlbl.Visible = false;
             headachePic.Hide();
@@ -77,16 +77,18 @@ namespace Snake
             overfedlbl.Visible = false;
             frenzyEffectImage.Hide();
             FrenzyLabel.Visible = false;
-            
 
-            //bitno
-            lvlCounter.Text = Settings.playerLevel.ToString();
-
+            //Ability text indicators
             WraithformPointsCounter.Text = wraith_form_points.ToString();
-
             focusCounter.Text = focus.ToString();
             movementSpeed.Text = Settings.Speed.ToString();
             lblScore.Text = Settings.Score.ToString();
+
+
+            //Level indicator
+            lvlCounter.Text = Settings.playerLevel.ToString();
+
+                
             GenerateFood();
 
         }
@@ -105,10 +107,6 @@ namespace Snake
 
             
         }
-
-
-       
-
 
         private void UpdateScreen(object sender, EventArgs e)
         {
