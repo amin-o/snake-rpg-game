@@ -43,27 +43,27 @@ namespace Snake
 
             int i = random.Next(1, type.Length + 1);
 
-            //ant
+            //Ant
             if(i == 1)
             {
                 tempName = type[0];
-            }//egg
+            }//Egg
             else if (i == 2)
             {
                 tempName = type[1];
             }
-            //pig
+            //Pig
             else if (i == 3)
             {
                 tempName = type[2];
             }
-            //boar
+            //Boar
             else if (i == 4)
             {
                 tempName = type[3];
 
             }
-               //bird
+            //Bird
             else if (i == 5)
             {
                 tempName = type[4];
