@@ -34,6 +34,7 @@ namespace Snake
         public string generateNameOfConsumable()
         {
 
+            //Types of foods
             String[] type = { "Ant", "Egg", "Pig", "Boar","Bird" };
 
             Random random = new Random();
