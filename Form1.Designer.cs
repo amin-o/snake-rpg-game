@@ -57,7 +57,6 @@
             this.headachePic = new System.Windows.Forms.PictureBox();
             this.overfedlbl = new System.Windows.Forms.Label();
             this.overfedPic = new System.Windows.Forms.PictureBox();
-            this.Creator = new System.Windows.Forms.Label();
             this.wraithformX = new System.Windows.Forms.Label();
             this.wraithformimage = new System.Windows.Forms.PictureBox();
             this.WraithformPointsCounter = new System.Windows.Forms.Label();
@@ -83,9 +82,10 @@
             // 
             this.pbCanvas.BackColor = System.Drawing.Color.Transparent;
             this.pbCanvas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pbCanvas.Location = new System.Drawing.Point(12, 81);
+            this.pbCanvas.Location = new System.Drawing.Point(16, 100);
+            this.pbCanvas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbCanvas.Name = "pbCanvas";
-            this.pbCanvas.Size = new System.Drawing.Size(882, 447);
+            this.pbCanvas.Size = new System.Drawing.Size(1175, 549);
             this.pbCanvas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCanvas.TabIndex = 0;
             this.pbCanvas.TabStop = false;
@@ -97,9 +97,10 @@
             this.ScoreText.BackColor = System.Drawing.Color.Transparent;
             this.ScoreText.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ScoreText.ForeColor = System.Drawing.Color.White;
-            this.ScoreText.Location = new System.Drawing.Point(899, 208);
+            this.ScoreText.Location = new System.Drawing.Point(1199, 256);
+            this.ScoreText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ScoreText.Name = "ScoreText";
-            this.ScoreText.Size = new System.Drawing.Size(77, 25);
+            this.ScoreText.Size = new System.Drawing.Size(100, 32);
             this.ScoreText.TabIndex = 1;
             this.ScoreText.Text = "Score";
             // 
@@ -109,9 +110,10 @@
             this.lblScore.BackColor = System.Drawing.Color.Transparent;
             this.lblScore.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.ForeColor = System.Drawing.Color.White;
-            this.lblScore.Location = new System.Drawing.Point(970, 160);
+            this.lblScore.Location = new System.Drawing.Point(1293, 197);
+            this.lblScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(162, 35);
+            this.lblScore.Size = new System.Drawing.Size(202, 45);
             this.lblScore.TabIndex = 2;
             this.lblScore.Text = "9999999";
             // 
@@ -120,9 +122,10 @@
             this.lblGameOver.AutoSize = true;
             this.lblGameOver.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGameOver.ForeColor = System.Drawing.Color.White;
-            this.lblGameOver.Location = new System.Drawing.Point(50, 169);
+            this.lblGameOver.Location = new System.Drawing.Point(67, 208);
+            this.lblGameOver.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGameOver.Name = "lblGameOver";
-            this.lblGameOver.Size = new System.Drawing.Size(420, 73);
+            this.lblGameOver.Size = new System.Drawing.Size(521, 91);
             this.lblGameOver.TabIndex = 3;
             this.lblGameOver.Text = "GAME OVER";
             this.lblGameOver.Visible = false;
@@ -133,7 +136,8 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Enabled = false;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(907, 149);
+            this.pictureBox1.Location = new System.Drawing.Point(1209, 183);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(58, 58);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -143,11 +147,12 @@
             // LevelBar
             // 
             this.LevelBar.ForeColor = System.Drawing.Color.Red;
-            this.LevelBar.Location = new System.Drawing.Point(12, 42);
+            this.LevelBar.Location = new System.Drawing.Point(16, 52);
+            this.LevelBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LevelBar.MarqueeAnimationSpeed = 10;
             this.LevelBar.Maximum = 50;
             this.LevelBar.Name = "LevelBar";
-            this.LevelBar.Size = new System.Drawing.Size(882, 33);
+            this.LevelBar.Size = new System.Drawing.Size(1176, 41);
             this.LevelBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.LevelBar.TabIndex = 6;
             // 
@@ -157,9 +162,10 @@
             this.labelXP.BackColor = System.Drawing.Color.Transparent;
             this.labelXP.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.labelXP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.labelXP.Location = new System.Drawing.Point(353, 5);
+            this.labelXP.Location = new System.Drawing.Point(471, 6);
+            this.labelXP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelXP.Name = "labelXP";
-            this.labelXP.Size = new System.Drawing.Size(244, 34);
+            this.labelXP.Size = new System.Drawing.Size(316, 44);
             this.labelXP.TabIndex = 7;
             this.labelXP.Text = "[Experience Bar]";
             // 
@@ -168,7 +174,8 @@
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Enabled = false;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(907, 33);
+            this.pictureBox2.Location = new System.Drawing.Point(1209, 41);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(58, 58);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -181,9 +188,10 @@
             this.lvlCounter.BackColor = System.Drawing.Color.Transparent;
             this.lvlCounter.Font = new System.Drawing.Font("Verdana", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvlCounter.ForeColor = System.Drawing.Color.White;
-            this.lvlCounter.Location = new System.Drawing.Point(970, 32);
+            this.lvlCounter.Location = new System.Drawing.Point(1293, 39);
+            this.lvlCounter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lvlCounter.Name = "lvlCounter";
-            this.lvlCounter.Size = new System.Drawing.Size(59, 59);
+            this.lvlCounter.Size = new System.Drawing.Size(75, 73);
             this.lvlCounter.TabIndex = 9;
             this.lvlCounter.Text = "1";
             // 
@@ -193,9 +201,10 @@
             this.levelText.BackColor = System.Drawing.Color.Transparent;
             this.levelText.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.levelText.ForeColor = System.Drawing.Color.White;
-            this.levelText.Location = new System.Drawing.Point(899, 92);
+            this.levelText.Location = new System.Drawing.Point(1199, 113);
+            this.levelText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.levelText.Name = "levelText";
-            this.levelText.Size = new System.Drawing.Size(74, 25);
+            this.levelText.Size = new System.Drawing.Size(95, 32);
             this.levelText.TabIndex = 10;
             this.levelText.Text = "Level";
             // 
@@ -204,7 +213,8 @@
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox3.Enabled = false;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(29, 534);
+            this.pictureBox3.Location = new System.Drawing.Point(39, 657);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(58, 58);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -217,9 +227,10 @@
             this.movementSpeed.BackColor = System.Drawing.Color.Transparent;
             this.movementSpeed.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.movementSpeed.ForeColor = System.Drawing.Color.SteelBlue;
-            this.movementSpeed.Location = new System.Drawing.Point(91, 545);
+            this.movementSpeed.Location = new System.Drawing.Point(121, 671);
+            this.movementSpeed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.movementSpeed.Name = "movementSpeed";
-            this.movementSpeed.Size = new System.Drawing.Size(0, 32);
+            this.movementSpeed.Size = new System.Drawing.Size(0, 41);
             this.movementSpeed.TabIndex = 12;
             // 
             // label2
@@ -228,9 +239,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label2.Location = new System.Drawing.Point(12, 593);
+            this.label2.Location = new System.Drawing.Point(16, 730);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 29);
+            this.label2.Size = new System.Drawing.Size(118, 36);
             this.label2.TabIndex = 11;
             this.label2.Text = "Speed";
             // 
@@ -243,11 +255,12 @@
             this.combatLog.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combatLog.ForeColor = System.Drawing.Color.Yellow;
             this.combatLog.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.combatLog.Location = new System.Drawing.Point(907, 296);
+            this.combatLog.Location = new System.Drawing.Point(1209, 364);
+            this.combatLog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.combatLog.Multiline = true;
             this.combatLog.Name = "combatLog";
             this.combatLog.ReadOnly = true;
-            this.combatLog.Size = new System.Drawing.Size(208, 322);
+            this.combatLog.Size = new System.Drawing.Size(277, 425);
             this.combatLog.TabIndex = 14;
             // 
             // combatLogText
@@ -256,9 +269,10 @@
             this.combatLogText.BackColor = System.Drawing.Color.Transparent;
             this.combatLogText.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combatLogText.ForeColor = System.Drawing.Color.White;
-            this.combatLogText.Location = new System.Drawing.Point(973, 261);
+            this.combatLogText.Location = new System.Drawing.Point(1297, 321);
+            this.combatLogText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.combatLogText.Name = "combatLogText";
-            this.combatLogText.Size = new System.Drawing.Size(70, 32);
+            this.combatLogText.Size = new System.Drawing.Size(87, 41);
             this.combatLogText.TabIndex = 15;
             this.combatLogText.Text = "Log";
             // 
@@ -267,9 +281,10 @@
             this.frenzyEffectImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.frenzyEffectImage.Enabled = false;
             this.frenzyEffectImage.Image = ((System.Drawing.Image)(resources.GetObject("frenzyEffectImage.Image")));
-            this.frenzyEffectImage.Location = new System.Drawing.Point(642, 534);
+            this.frenzyEffectImage.Location = new System.Drawing.Point(856, 657);
+            this.frenzyEffectImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.frenzyEffectImage.Name = "frenzyEffectImage";
-            this.frenzyEffectImage.Size = new System.Drawing.Size(40, 40);
+            this.frenzyEffectImage.Size = new System.Drawing.Size(53, 49);
             this.frenzyEffectImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.frenzyEffectImage.TabIndex = 16;
             this.frenzyEffectImage.TabStop = false;
@@ -281,9 +296,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label1.Location = new System.Drawing.Point(563, 301);
+            this.label1.Location = new System.Drawing.Point(751, 370);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 32);
+            this.label1.Size = new System.Drawing.Size(0, 41);
             this.label1.TabIndex = 17;
             // 
             // FrenzyLabel
@@ -292,9 +308,10 @@
             this.FrenzyLabel.BackColor = System.Drawing.Color.Transparent;
             this.FrenzyLabel.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FrenzyLabel.ForeColor = System.Drawing.Color.Red;
-            this.FrenzyLabel.Location = new System.Drawing.Point(623, 577);
+            this.FrenzyLabel.Location = new System.Drawing.Point(831, 710);
+            this.FrenzyLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FrenzyLabel.Name = "FrenzyLabel";
-            this.FrenzyLabel.Size = new System.Drawing.Size(74, 18);
+            this.FrenzyLabel.Size = new System.Drawing.Size(95, 25);
             this.FrenzyLabel.TabIndex = 18;
             this.FrenzyLabel.Text = "Frenzy!";
             this.FrenzyLabel.Visible = false;
@@ -304,7 +321,8 @@
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox4.Enabled = false;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(166, 534);
+            this.pictureBox4.Location = new System.Drawing.Point(221, 657);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(58, 58);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -317,9 +335,10 @@
             this.focusCounter.BackColor = System.Drawing.Color.Transparent;
             this.focusCounter.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.focusCounter.ForeColor = System.Drawing.Color.Turquoise;
-            this.focusCounter.Location = new System.Drawing.Point(228, 545);
+            this.focusCounter.Location = new System.Drawing.Point(304, 671);
+            this.focusCounter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.focusCounter.Name = "focusCounter";
-            this.focusCounter.Size = new System.Drawing.Size(0, 32);
+            this.focusCounter.Size = new System.Drawing.Size(0, 41);
             this.focusCounter.TabIndex = 20;
             // 
             // focusLabel
@@ -328,9 +347,10 @@
             this.focusLabel.BackColor = System.Drawing.Color.Transparent;
             this.focusLabel.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.focusLabel.ForeColor = System.Drawing.Color.Turquoise;
-            this.focusLabel.Location = new System.Drawing.Point(149, 593);
+            this.focusLabel.Location = new System.Drawing.Point(199, 730);
+            this.focusLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.focusLabel.Name = "focusLabel";
-            this.focusLabel.Size = new System.Drawing.Size(90, 29);
+            this.focusLabel.Size = new System.Drawing.Size(113, 36);
             this.focusLabel.TabIndex = 19;
             this.focusLabel.Text = "Focus";
             // 
@@ -340,9 +360,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Turquoise;
-            this.label3.Location = new System.Drawing.Point(173, 622);
+            this.label3.Location = new System.Drawing.Point(231, 766);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 23);
+            this.label3.Size = new System.Drawing.Size(56, 29);
             this.label3.TabIndex = 22;
             this.label3.Text = "[Z]";
             // 
@@ -352,9 +373,10 @@
             this.headachelbl.BackColor = System.Drawing.Color.Transparent;
             this.headachelbl.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headachelbl.ForeColor = System.Drawing.Color.Red;
-            this.headachelbl.Location = new System.Drawing.Point(716, 577);
+            this.headachelbl.Location = new System.Drawing.Point(955, 710);
+            this.headachelbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.headachelbl.Name = "headachelbl";
-            this.headachelbl.Size = new System.Drawing.Size(61, 18);
+            this.headachelbl.Size = new System.Drawing.Size(81, 25);
             this.headachelbl.TabIndex = 24;
             this.headachelbl.Text = "Dizzy!";
             this.headachelbl.Visible = false;
@@ -364,9 +386,10 @@
             this.headachePic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.headachePic.Enabled = false;
             this.headachePic.Image = ((System.Drawing.Image)(resources.GetObject("headachePic.Image")));
-            this.headachePic.Location = new System.Drawing.Point(725, 534);
+            this.headachePic.Location = new System.Drawing.Point(967, 657);
+            this.headachePic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.headachePic.Name = "headachePic";
-            this.headachePic.Size = new System.Drawing.Size(40, 40);
+            this.headachePic.Size = new System.Drawing.Size(53, 49);
             this.headachePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.headachePic.TabIndex = 23;
             this.headachePic.TabStop = false;
@@ -379,9 +402,10 @@
             this.overfedlbl.CausesValidation = false;
             this.overfedlbl.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.overfedlbl.ForeColor = System.Drawing.Color.Red;
-            this.overfedlbl.Location = new System.Drawing.Point(792, 577);
+            this.overfedlbl.Location = new System.Drawing.Point(1056, 710);
+            this.overfedlbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.overfedlbl.Name = "overfedlbl";
-            this.overfedlbl.Size = new System.Drawing.Size(86, 18);
+            this.overfedlbl.Size = new System.Drawing.Size(108, 25);
             this.overfedlbl.TabIndex = 26;
             this.overfedlbl.Text = "Overfed!";
             this.overfedlbl.Visible = false;
@@ -391,26 +415,14 @@
             this.overfedPic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.overfedPic.Enabled = false;
             this.overfedPic.Image = ((System.Drawing.Image)(resources.GetObject("overfedPic.Image")));
-            this.overfedPic.Location = new System.Drawing.Point(816, 534);
+            this.overfedPic.Location = new System.Drawing.Point(1088, 657);
+            this.overfedPic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.overfedPic.Name = "overfedPic";
-            this.overfedPic.Size = new System.Drawing.Size(40, 40);
+            this.overfedPic.Size = new System.Drawing.Size(53, 49);
             this.overfedPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.overfedPic.TabIndex = 25;
             this.overfedPic.TabStop = false;
             this.overfedPic.Visible = false;
-            // 
-            // Creator
-            // 
-            this.Creator.AutoSize = true;
-            this.Creator.BackColor = System.Drawing.Color.Transparent;
-            this.Creator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Creator.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Creator.ForeColor = System.Drawing.Color.White;
-            this.Creator.Location = new System.Drawing.Point(907, 625);
-            this.Creator.Name = "Creator";
-            this.Creator.Size = new System.Drawing.Size(208, 20);
-            this.Creator.TabIndex = 27;
-            this.Creator.Text = "Created by Амин Оџић";
             // 
             // wraithformX
             // 
@@ -418,9 +430,10 @@
             this.wraithformX.BackColor = System.Drawing.Color.Transparent;
             this.wraithformX.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.wraithformX.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.wraithformX.Location = new System.Drawing.Point(295, 622);
+            this.wraithformX.Location = new System.Drawing.Point(393, 766);
+            this.wraithformX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.wraithformX.Name = "wraithformX";
-            this.wraithformX.Size = new System.Drawing.Size(45, 23);
+            this.wraithformX.Size = new System.Drawing.Size(57, 29);
             this.wraithformX.TabIndex = 31;
             this.wraithformX.Text = "[X]";
             // 
@@ -429,7 +442,8 @@
             this.wraithformimage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.wraithformimage.Enabled = false;
             this.wraithformimage.Image = ((System.Drawing.Image)(resources.GetObject("wraithformimage.Image")));
-            this.wraithformimage.Location = new System.Drawing.Point(289, 534);
+            this.wraithformimage.Location = new System.Drawing.Point(385, 657);
+            this.wraithformimage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.wraithformimage.Name = "wraithformimage";
             this.wraithformimage.Size = new System.Drawing.Size(58, 58);
             this.wraithformimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -442,9 +456,10 @@
             this.WraithformPointsCounter.BackColor = System.Drawing.Color.Transparent;
             this.WraithformPointsCounter.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WraithformPointsCounter.ForeColor = System.Drawing.Color.Turquoise;
-            this.WraithformPointsCounter.Location = new System.Drawing.Point(351, 545);
+            this.WraithformPointsCounter.Location = new System.Drawing.Point(468, 671);
+            this.WraithformPointsCounter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.WraithformPointsCounter.Name = "WraithformPointsCounter";
-            this.WraithformPointsCounter.Size = new System.Drawing.Size(0, 32);
+            this.WraithformPointsCounter.Size = new System.Drawing.Size(0, 41);
             this.WraithformPointsCounter.TabIndex = 29;
             // 
             // wraithformlabel
@@ -453,9 +468,10 @@
             this.wraithformlabel.BackColor = System.Drawing.Color.Transparent;
             this.wraithformlabel.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.wraithformlabel.ForeColor = System.Drawing.Color.DarkOrchid;
-            this.wraithformlabel.Location = new System.Drawing.Point(260, 600);
+            this.wraithformlabel.Location = new System.Drawing.Point(347, 738);
+            this.wraithformlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.wraithformlabel.Name = "wraithformlabel";
-            this.wraithformlabel.Size = new System.Drawing.Size(117, 18);
+            this.wraithformlabel.Size = new System.Drawing.Size(153, 25);
             this.wraithformlabel.TabIndex = 28;
             this.wraithformlabel.Text = "Wraith Form";
             // 
@@ -465,9 +481,10 @@
             this.Wraithtimer.BackColor = System.Drawing.Color.Transparent;
             this.Wraithtimer.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Wraithtimer.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Wraithtimer.Location = new System.Drawing.Point(430, 577);
+            this.Wraithtimer.Location = new System.Drawing.Point(573, 710);
+            this.Wraithtimer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Wraithtimer.Name = "Wraithtimer";
-            this.Wraithtimer.Size = new System.Drawing.Size(0, 25);
+            this.Wraithtimer.Size = new System.Drawing.Size(0, 32);
             this.Wraithtimer.TabIndex = 33;
             this.Wraithtimer.Visible = false;
             // 
@@ -476,9 +493,10 @@
             this.wraithformACTIVE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.wraithformACTIVE.Enabled = false;
             this.wraithformACTIVE.Image = ((System.Drawing.Image)(resources.GetObject("wraithformACTIVE.Image")));
-            this.wraithformACTIVE.Location = new System.Drawing.Point(430, 534);
+            this.wraithformACTIVE.Location = new System.Drawing.Point(573, 657);
+            this.wraithformACTIVE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.wraithformACTIVE.Name = "wraithformACTIVE";
-            this.wraithformACTIVE.Size = new System.Drawing.Size(40, 40);
+            this.wraithformACTIVE.Size = new System.Drawing.Size(53, 49);
             this.wraithformACTIVE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.wraithformACTIVE.TabIndex = 32;
             this.wraithformACTIVE.TabStop = false;
@@ -490,9 +508,10 @@
             this.MutedLbl.BackColor = System.Drawing.Color.Transparent;
             this.MutedLbl.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MutedLbl.ForeColor = System.Drawing.Color.Crimson;
-            this.MutedLbl.Location = new System.Drawing.Point(1046, 214);
+            this.MutedLbl.Location = new System.Drawing.Point(1395, 263);
+            this.MutedLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MutedLbl.Name = "MutedLbl";
-            this.MutedLbl.Size = new System.Drawing.Size(69, 18);
+            this.MutedLbl.Size = new System.Drawing.Size(89, 25);
             this.MutedLbl.TabIndex = 35;
             this.MutedLbl.Text = "Muted!";
             this.MutedLbl.Visible = false;
@@ -502,9 +521,10 @@
             this.mutedPic.BackColor = System.Drawing.Color.Transparent;
             this.mutedPic.Enabled = false;
             this.mutedPic.Image = ((System.Drawing.Image)(resources.GetObject("mutedPic.Image")));
-            this.mutedPic.Location = new System.Drawing.Point(1049, 236);
+            this.mutedPic.Location = new System.Drawing.Point(1399, 290);
+            this.mutedPic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mutedPic.Name = "mutedPic";
-            this.mutedPic.Size = new System.Drawing.Size(59, 54);
+            this.mutedPic.Size = new System.Drawing.Size(79, 66);
             this.mutedPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.mutedPic.TabIndex = 34;
             this.mutedPic.TabStop = false;
@@ -512,12 +532,12 @@
             // 
             // SnakeRPG
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1127, 652);
+            this.ClientSize = new System.Drawing.Size(1503, 802);
             this.Controls.Add(this.MutedLbl);
             this.Controls.Add(this.mutedPic);
             this.Controls.Add(this.Wraithtimer);
@@ -526,7 +546,6 @@
             this.Controls.Add(this.wraithformimage);
             this.Controls.Add(this.WraithformPointsCounter);
             this.Controls.Add(this.wraithformlabel);
-            this.Controls.Add(this.Creator);
             this.Controls.Add(this.overfedlbl);
             this.Controls.Add(this.overfedPic);
             this.Controls.Add(this.headachelbl);
@@ -555,6 +574,7 @@
             this.Controls.Add(this.pbCanvas);
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "SnakeRPG";
             this.ShowIcon = false;
@@ -610,7 +630,6 @@
         private System.Windows.Forms.PictureBox headachePic;
         private System.Windows.Forms.Label overfedlbl;
         private System.Windows.Forms.PictureBox overfedPic;
-        private System.Windows.Forms.Label Creator;
         private System.Windows.Forms.Label wraithformX;
         private System.Windows.Forms.PictureBox wraithformimage;
         private System.Windows.Forms.Label WraithformPointsCounter;
